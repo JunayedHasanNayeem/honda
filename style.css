@@ -1,0 +1,87 @@
+/* Global styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.honda-font-300{
+    font-weight: 300;
+}
+.honda-fs-13{
+    font-size: 13px;
+}
+.honda-color{
+    color: #E76F51;
+}
+.honda-btn{
+    background-color: #E76F51;
+    color: #ffffff;
+}
+.honda-border-btn{
+    border: 2px solid #E76F51;
+    color: #E76F51;
+}
+.honda-btn:hover{
+    color: #ffffff;
+    background-color: #e05c3a;
+}
+.honda-border-btn:hover{
+    color: #ffffff;
+    background-color: #e05c3a;
+}
+.honda-bg{
+    background-color: #264653;
+}
+
+/* Honda top banner */
+
+.honda-top-banner{
+    background-color: #264653;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Honda featured bikes */
+.honda-featured-bike-1, .honda-featured-bike-3{
+    filter: grayscale(100%);
+}
+
+/* Parts section */
+
+.honda-parts-filter{
+    background-image: url("images/filter-box-bg.jpg");
+    background-size: cover;
+}
+.honda-slide-1{
+    background-image: url("images/filter-slider-img-1.jpg");
+    background-size: cover;
+}
+.honda-slide-2{
+    background-image: url("images/filter-slider-img-2.jpg");
+    background-size: cover;
+}
+
+/* Products Section */
+
+.honda-helmet-banner{
+    background-image: url("images/flug-bg.jpg");
+    background-size: cover;
+}
+
+
+/* Footer area */
+.honda-footer{
+    background-color: #0B0D17;
+}
+.honda-link{
+    display: inline-block;
+    font-weight: 300;
+    font-size: 13px;
+    color:#ffffff;
+    text-decoration: none;
+    padding: 0 15px 15px 0;
+}
+.honda-link:hover{
+    color:#b3b3b3
+}
